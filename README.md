@@ -1,6 +1,12 @@
 ##adjunto archivo .env para que pueda testearse la entrega.
 
-##archivo nginx.conf tambien adjuntado en el proyecto para que pueda verse la configuración establecida para trabajar con un balanceador de carga mediante nginx
+##el archivo nginx.conf adjuntado en el proyecto para que pueda verse la configuración establecida para trabajar con un balanceador de carga mediante nginx no esta actualizado. El correcto tiene la siguiente estructura:
+![Captura de Pantalla 2021-11-06 a la(s) 16 29 25](https://user-images.githubusercontent.com/79757893/140621665-e1c943ed-b84e-43cf-8df5-ef2c91bad16e.png)
+
+#y este es el funcionamiento del cluster con nginx
+
+![Grabación de pantalla 2021-11-06 a la(s) 16 30 40](https://user-images.githubusercontent.com/79757893/140621744-041cc968-23eb-4509-8ee3-9a8751547ad8.gif)
+
 
 ##a continuación se adjuntan muestras con comandos solicitados para la entrega para activar pm2, cluster y más.
 
@@ -23,3 +29,4 @@
 
 #ejecución de módulo cluster nativo
 ![Captura de Pantalla 2021-11-02 a la(s) 14 44 24](https://user-images.githubusercontent.com/79757893/140395549-3dfa27bb-41a7-4f25-a5ff-4cc3bdb2d6d0.png)
+
